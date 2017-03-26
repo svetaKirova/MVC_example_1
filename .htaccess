@@ -3,5 +3,5 @@ RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-
+# test changes
 RewriteRule ^(.*)$ index.php
